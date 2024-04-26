@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open_Sans", sans-serif;
+  background-color: #d9d7e091;
+}
+
+input {
+  box-sizing: border-box;
+}
+a {
+  color: var(--text-color);
+  text-decoration: dashed;
+}
+img {
+  object-fit: cover;
+}
+
+button:hover {
+  background: #0693e3;
+}
+:root {
+  --accent-color: #ff9900;
+  --text-color: #3b434e;
+  --text-list-color: #787d85;
+  --text-button-color: #ffffff;
+  --root-background: #e5e5e5;
+}

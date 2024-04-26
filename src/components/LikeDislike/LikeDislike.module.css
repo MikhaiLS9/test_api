@@ -1,0 +1,32 @@
+.like_span {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  color: green;
+  width: 30px;
+  height: auto;
+  width: 100%;
+  
+}
+
+.dislike_span {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  color: red;
+  width: 30px;
+  height: auto;
+  width: 100%;
+}
+
+.like:hover,
+.isActiveLike {
+  fill: green;
+}
+
+.dislike:hover,
+.isActiveDislike {
+  fill: red;
+}

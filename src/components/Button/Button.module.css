@@ -1,0 +1,42 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 5px 30px;
+  height: 50px;
+  width: 100%;
+  background: var(--accent-color);
+  color: var(--text-button-color);
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Open_Sans";
+}
+
+.small {
+  width: 75px;
+}
+
+.medium {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 50px;
+  width: 150px;
+}
+
+.large {
+  width: 225px;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 50px;
+}
+
+.svgIcon,
+.svgIcon:hover {
+  background: none;
+  cursor: pointer;
+}
